@@ -1,9 +1,14 @@
 # atty
 
+> [!WARNING]
+> This is crate is no longer maintained and users are encouraged to prefer
+> the equivalant functionality of [std.io.IsTerminal](https://doc.rust-lang.org/std/io/trait.IsTerminal.html), introduced in [Rust 1.70.0](https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html#isterminal)
+>
+> Thank you for your support!
+
 [![Build Status](https://travis-ci.org/softprops/atty.svg?branch=master)](https://travis-ci.org/softprops/atty) [![Build status](https://ci.appveyor.com/api/projects/status/geggrsnsjsuse8cv?svg=true)](https://ci.appveyor.com/project/softprops/atty) [![Coverage Status](https://coveralls.io/repos/softprops/atty/badge.svg?branch=master&service=github)](https://coveralls.io/github/softprops/atty?branch=master) [![crates.io](https://img.shields.io/crates/v/atty.svg)](https://crates.io/crates/atty) [![Released API docs](https://docs.rs/atty/badge.svg)](http://docs.rs/atty) [![Master API docs](https://img.shields.io/badge/docs-master-green.svg)](https://softprops.github.io/atty)
 
 > are you or are you not a tty?
-
 
 ## install
 
@@ -31,7 +36,6 @@ fn main() {
 ## testing
 
 This library has been unit tested on both unix and windows platforms (via appveyor).
-
 
 A simple example program is provided in this repo to test various tty's. By default.
 
