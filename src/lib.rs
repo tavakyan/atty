@@ -49,6 +49,7 @@ pub fn is(stream: Stream) -> bool {
 }
 
 /// returns true if this is a tty
+#[cfg(target_os = "sp1")]
 pub fn is(stream: Stream) -> bool {
     false
 }
